@@ -9,13 +9,14 @@ except ImportError:
 
 setup(
     name = 'encoding_cleaner',
-    version = '0.3',
+    version = '0.4',
     url = 'https://github.com/fdouetteau/PythonEncodingCleaner',
     description = 'Utility and python lib to cleanup badly encoded files',
     author = 'Florian Douetteau',
     author_email = 'florian@douetteau.net',
     license = 'MIT',
     platforms = 'any',
+    packages=['encoding_cleaner', ],
     py_modules = [
     ],
     requires = [
